@@ -1,0 +1,76 @@
+p{
+    color: black;
+}
+.box {
+    padding: 1rem 1.5rem;
+ 
+  }
+  
+  .box--tiny {
+    background-color: rgb(96, 212, 174);
+    margin: 10%; 
+    padding: 1rem 1.5rem;  
+  }
+  
+ 
+  .box--small {
+    background-color: rgb(57, 150, 150);
+    margin: 20px 20px 20px 20px;  
+    padding: 1rem 1.5rem;  
+  }
+  
+    .box--big {
+    background-color: rgb(21, 61, 61);
+    padding: 1rem 1.5rem;  
+    margin: 25px 25px 25px 25px;  
+  }
+  box-
+  
+  .box--very-big {
+    background-color: rgb(42, 87, 79);
+    margin: 30%;  
+    padding: 1rem 1.5rem;  
+    
+  }
+  
+  @media only screen and (max-width: 800px) {
+   
+    .box--tiny {
+        background-color: rgb(122, 84, 84);
+      }
+      .box--small {
+        background-color: bisque;
+      }
+      .box--big {
+        background-color: blue;
+        margin:30px 30px 30px 20px; 
+     
+      }
+      .box--very-big {
+        background-color: aqua;
+        margin:30px 30px 30px 30px;
+
+      }
+    }
+  
+    @media only screen and (max-width: 300px) {
+   
+        .box--tiny {
+            background-color: rgb(122, 84, 84);
+            margin: 5px 5px 5px 5px;
+          }
+          .box--small {
+            background-color: bisque;
+            margin:2px 2px 2px 2px ;
+          }
+          .box--big {
+            background-color: blue;
+            margin:5px 5px 5px 5px;
+         
+          }
+          .box--very-big {
+            background-color: aqua;
+            margin:10px 10px 10px 10px;
+    
+          }
+        }
