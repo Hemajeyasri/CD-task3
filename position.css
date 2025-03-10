@@ -1,0 +1,39 @@
+
+
+
+.box--tiny {
+    background-color: rgb(117, 56, 92);
+    position: absolute;
+    padding: 0px 0px;
+    top: 20px;
+  }
+  
+ 
+  .box--small {
+   background-color:rgb(209, 176, 219);
+   position:absolute;
+   top:50px;
+   padding: 15px 35px;
+   left: 45px;
+  
+   }
+  
+    .box--big {
+    background-color: rgb(199, 209, 108);
+    position:absolute;
+    top: 25px;
+    padding: 60px 90px;
+    
+  }
+  
+  
+  .box--very-big {
+    background-color: rgb(42, 87, 79);
+    padding:80px 60px;
+    position: relative;
+  margin:100px 90px 100px 450px;
+  justify-content: center;
+
+    
+  }
+  
